@@ -1,3 +1,5 @@
+'use strict';
+
 const name = prompt("What is your name?");
 
 if (name == null || name ==="") {
@@ -5,5 +7,5 @@ if (name == null || name ==="") {
 }
 
 else {
-    alert("Hello, " + name + "! " + "How are you?")
+    alert("Hello, " + name + "! " + "How are you?");
 }
